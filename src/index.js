@@ -42,7 +42,7 @@ function onInput(value) {
       }
     })
     .catch(error => {
-      //   console.log(error);
+      console.log(error);
       clearAllMarkup();
       Notiflix.Notify.failure('Oops, there is no country with that name');
     });
