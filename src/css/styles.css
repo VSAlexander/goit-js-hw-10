@@ -18,3 +18,41 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  padding: 0;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.country-list__item-img {
+  width: 35px;
+  height: 25px;
+}
+
+.country-info__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.country-info__flag {
+  width: 45px;
+  height: 25px;
+}
+
+.country-info__term {
+  font-weight: 700;
+}
+
+.country-info__definition {
+  font-weight: 400;
+}
